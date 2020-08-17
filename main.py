@@ -45,3 +45,4 @@ for (index, single_person) in enumerate(total_test_data):
         list_gender.append(1)
 test.insert(2, 'gender', list_gender)
 test[['id', 'gender']].to_csv('commit.csv', index=None, encoding='utf-8')
+# acc 0.82731
